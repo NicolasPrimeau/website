@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /css/
+Disallow: /images/
+Disallow: /js/
+Disallow: /cv/
+Disallow: /cv/Primeau-Nicolas-C.V..pdf
+Disallow: /cv/Primeau-Nicolas-C.V.pdf
+Disallow: /.git/*
+Disallow: /LICENSE
+Disallow: /README.md
+Disallow: /stuff/games/soge_r1114_reb.rar

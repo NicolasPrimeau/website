@@ -1,0 +1,416 @@
+<h3 class="axis-aa">Unit Profiles</h3>
+<table class="unit-table">
+<tr>
+<th>Unit Names</th>
+<th>Cost</th>
+<th>Attack</th>
+<th>Defense</th>
+<th>Move</th>
+<th>HP</th>
+</tr>
+<tr>
+<th colspan = "6" class="unit-table-types">Structures</td>
+</tr>
+<tr>
+<td>Major Industrial Complex</td>
+<td>30</td>
+<td>-</td>
+<td>(AA)</td>
+<td>-</td>
+<td>20"</td></tr>
+<tr>
+<td>Minor Industrial Complex</td>
+<td>12</td>
+<td>-</td>
+<td>(AA)</td>
+<td>-</td>
+<td>6"</td></tr>
+<tr>
+<td>Air Base</td>
+<td>15</td>
+<td>-</td>
+<td>(AA)</td>
+<td>-</td>
+<td>6"</td></tr>
+<tr>
+<td>Naval Base</td>
+<td>15</td>
+<td>-</td>
+<td>(AA)</td>
+<td>-</td>
+<td>6"</td></tr>
+<tr>
+<th colspan = "6" class="unit-table-types">Land Units</td>
+</tr>
+<tr>
+<td>Infantry</td>
+<td>3</td>
+<td>1*</td>
+<td>2</td>
+<td>1</td>
+<td>1</td></tr>
+<tr>
+<td>Artillery</td>
+<td>4</td>
+<td>2</td>
+<td>2</td>
+<td>1</td>
+<td>1</td></tr>
+<tr>
+<td>Mechanized Infantry</td>
+<td>4</td>
+<td>1*</td>
+<td>2</td>
+<td>2</td>
+<td>1</td></tr>
+<tr>
+<td>Tank</td>
+<td>6</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td></tr>
+<tr>
+<td>Antiaircraft Artillery</td>
+<td>5</td>
+<td>-</td>
+<td>-</td>
+<td>1^</td>
+<td>-"</td></tr>
+<tr>
+<th colspan = "6" class="unit-table-types">Air Units</td>
+</tr>
+<tr>
+<td>Fighter</td>
+<td>10</td>
+<td>3</td>
+<td>4</td>
+<td>4</td>
+<td>1</td></tr>
+<tr>
+<td>Tactical Bomber</td>
+<td>11</td>
+<td>3^</td>
+<td>3</td>
+<td>4</td>
+<td>1</td></tr>
+<tr>
+<td>Strategic Bomber</td>
+<td>12</td>
+<td>4</td>
+<td>1</td>
+<td>6</td>
+<td>1</td></tr>
+<tr>
+<th colspan = "6" class="unit-table-types">Sea Units</td>
+</tr>
+<tr>
+<td>Battleship</td>
+<td>20</td>
+<td>4</td>
+<td>4</td>
+<td>2</td>
+<td>2</td></tr>
+<tr>
+<td>Aircraft Carrier</td>
+<td>16</td>
+<td>0</td>
+<td>2</td>
+<td>2</td>
+<td>2</td></tr>
+<tr>
+<td>Cruiser</td>
+<td>12</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>1</td></tr>
+<tr>
+<td>Destroyer</td>
+<td>8</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>1</td></tr>
+<tr>
+<td>Submarine</td>
+<td>6</td>
+<td>2</td>
+<td>1</td>
+<td>2</td>
+<td>1</td></tr>
+<tr>
+<td>Transport</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+<td>1</td></tr>
+</table>
+<p class="table-info">* +1 Attack when supported by artillery</p>
+<p class="table-info">^ Can only move during non combat</p>
+<p class="table-info">' +1 Attack when supported by fighter</p>
+<form class="unit-form">
+<label>Select a unit: </label>
+<select class="unit-picker">
+<option selected="selected" class="place-holder" disabled>Unit</option>
+<optgroup label="Structures">
+<option value="#Major_Industrial_Complex">Major Industrial Complex</option>
+<option value="#Minor_Industrial_Complex">Minor Industrial Complex</option>
+<option value="#Air_Base">Air Base</option>
+<option value="#Naval_Base">Naval Base</option>
+</optgroup>
+<optgroup label="Land Units">
+<option value="#Infantry">Infantry</option>
+<option value="#Artillery">Artillery</option>
+<option value="#Mechanized_Infantry">Mechanized Infantry</option>
+<option value="#Tank">Tank</option>
+<option value="#Antiaircraft_Artillery">Antiaircraft Artillery</option>
+</optgroup>
+<optgroup label="Air Units">
+<option value="#Fighter">Fighter</option>
+<option value="#Tactical_Bomber">Tactical Bomber</option>
+<option value="#Strategic_Bomber">Strategic Bomber</option>
+</optgroup>
+<optgroup label="Sea Units">
+<option value="#Battleship">Battleship</option>
+<option value="#Aircraft_Carrier">Aircraft Carrier</option>
+<option value="#Cruiser">Cruiser</option>
+<option value="#Destroyer">Destroyer</option>
+<option value="#Submarine">Submarine</option>
+<option value="#Transport">Transport</option>
+</optgroup>
+</select>
+</form
+<div class="axis-units">
+<h4 class="axis-unit-type-title">Structures</h4>
+<ul class="axis-unit-type">
+<li class="axis-unit">
+<a name="Major_Industrial_Complex"></a>
+<h4 class="axis-unit-title">Major Industrial Complex</h4>
+<p class="cost">Cost: 30</p>
+<p class="attack">Attack: -</p>
+<p class="defense">Defense: (AA)</p>
+<p class="move">Move: -</p>
+<p class="hp">HP: 20"</p>
+<p class ="comment">-Can not be destroyed, inoperative after 10 damage</p>
+<p class ="comment">-Produces 1 less unit per damage</p>
+<p class ="comment">-Can produce max 10 units per turn</p>
+<p class ="comment">-IPC of >=3 on territory</p>
+<p class ="comment">-Can not be built on island</p>
+</li>
+<li class="axis-unit">
+<a name="Minor_Industrial_Complex"></a>
+<h4 class="axis-unit-title">Minor Industrial Complex</h4>
+<p class="cost">Cost: 12</p>
+<p class="attack">Attack: -</p>
+<p class="defense">Defense: (AA)</p>
+<p class="move">Move: -</p>
+<p class="hp">HP: 6"</p>
+<p class ="comment">-Can produce max 3 units per turn</p>
+<p class ="comment">-Can not be destroyed, inoperative after 3 damage</p>
+<p class ="comment">-Produces 1 less unit per damage</p>
+<p class ="comment">-Can be upgraded to major with a cost of 20 IPC, if territory already owned that has an IPC of >=3</p>
+<p class ="comment">-Damaged minor can not be upgraded</p>
+<p class ="comment">-IPC of >=2 minimum on territory</p>
+<p class ="comment">-Can not be built on island</p>
+</li>
+<li class="axis-unit">
+<a name="Air_Base"></a>
+<h4 class="axis-unit-title">Air Base</h4>
+<p class="cost">Cost: 15</p>
+<p class="attack">Attack: -</p>
+<p class="defense">Defense: (AA)</p>
+<p class="move">Move: -</p>
+<p class="hp">HP: 6"</p>
+<p class ="comment">-Can not be destroyed</p>
+<p class ="comment">-Inoperative after 3 damage</p>
+<p class ="comment">-Increases air units range on current territory by +1</p>
+<p class ="comment">-If on island, air units can scramble</p>
+</li>
+<li class="axis-unit">
+<a name="Naval_Base"></a>
+<h4 class="axis-unit-title">Naval Base</h4>
+<p class="cost">Cost: 15</p>
+<p class="attack">Attack: - </p>
+<p class="defense">Defense: (AA)</p>
+<p class="move">Move: -</p>
+<p class="hp">HP: 6"</p>
+<p class ="comment">-Can not be destroyed</p>
+<p class ="comment">-Inoperative after 3 damage</p>
+<p class ="comment">-All sea zones around territory are affected</p>
+<p class ="comment">-+1 range to ships</p>
+<p class ="comment">-Repairs ships</p>
+</ul>
+<h4 class="axis-unit-type-title">Land Units</h4>
+<ul class="axis-unit-type">
+</li>
+<li class="axis-unit">
+<a name="Infantry"></a>
+<h4 class="axis-unit-title">Infantry</h4>
+<p class="cost">Cost: 3</p>
+<p class="attack">Attack: 1*</p>
+<p class="defense">Defense: 2</p>
+<p class="move">Move: 1</p>
+<p class="hp">HP: 1</p>
+<p class ="comment">-+1 damage when paired with artillery</p>
+</li>
+<li class="axis-unit">
+<a name="Artillery"></a>
+<h4 class="axis-unit-title">Artillery</h4>
+<p class="cost">Cost: 4</p>
+<p class="attack">Attack: 2</p>
+<p class="defense">Defense: 2</p>
+<p class="move">Move: 1</p>
+<p class="hp">HP: 1</p>
+</li>
+<li class="axis-unit">
+<a name="Mechanized_Infantry"></a>
+<h4 class="axis-unit-title">Mechanized Infantry</h4>
+<p class="cost">Cost: 4</p>
+<p class="attack">Attack: 1*</p>
+<p class="defense">Defense: 2</p>
+<p class="move">Move: 2</p>
+<p class="hp">HP: 1</p>
+<p class ="comment">-+1 damage when paired with artillery</p>
+<p class ="comment">-Can Blitz with tanks</p>
+</li>
+<li class="axis-unit">
+<a name="Tank"></a>
+<h4 class="axis-unit-title">Tank</h4>
+<p class="cost">Cost: 6</p>
+<p class="attack">Attack: 3</p>
+<p class="defense">Defense: 3</p>
+<p class="move">Move: 2</p>
+<p class="hp">HP: 1</p>
+<p class ="comment">-Can blitz, not through any structures or AA</p>
+</li>
+<li class="axis-unit">
+<a name="Antiaircraft_Artillery"></a>
+<h4 class="axis-unit-title">Antiaircraft Artillery</h4>
+<p class="cost">Cost: 5</p>
+<p class="attack">Attack: -</p>
+<p class="defense">Defense: -</p>
+<p class="move">Move: 1^</p>
+<p class="hp">HP: -"</p>
+<p class ="comment">-Can only move during non combat</p>
+<p class ="comment">-Can't be destroyed</p>
+<p class ="comment">-Shoots once at the beginning of the battle vs air units for 1 damage</p>
+<p class ="comment">-Can only shoot vs 3 planes</p>
+<p class ="comment">-Does not contribute in strategic bombings</p>
+</ul>
+<h4 class="axis-unit-type-title">Air Units</h4>
+<ul class="axis-unit-type">
+</li>
+<li class="axis-unit">
+<a name="Fighter"></a>
+<h4 class="axis-unit-title">Fighter</h4>
+<p class="cost">Cost: 10</p>
+<p class="attack">Attack: 3</p>
+<p class="defense">Defense: 4</p>
+<p class="move">Move: 4</p>
+<p class="hp">HP: 1</p>
+<p class ="comment">-Can participate in strategic bombings. Interceptors must be in same territory.</p>
+<p class ="comment">-Intercepts and Escorts at 1 attack/defense</p>
+<p class ="comment">-Can land on carriers</p>
+</li>
+<li class="axis-unit">
+<a name="Tactical_Bomber"></a>
+<h4 class="axis-unit-title">Tactical Bomber</h4>
+<p class="cost">Cost: 11</p>
+<p class="attack">Attack: 3^</p>
+<p class="defense">Defense: 3</p>
+<p class="move">Move: 4</p>
+<p class="hp">HP: 1</p>
+<p class ="comment">-Can land on carriers</p>
+<p class ="comment">-Can attack air or naval base</p>
+</li>
+<li class="axis-unit">
+<a name="Strategic_Bomber"></a>
+<h4 class="axis-unit-title">Strategic Bomber</h4>
+<p class="cost">Cost: 12</p>
+<p class="attack">Attack: 4</p>
+<p class="defense">Defense: 1</p>
+<p class="move">Move: 6</p>
+<p class="hp">HP: 1</p>
+<p class ="comment">-Can attack industrial complexes, naval bases and air bases</p>
+</ul>
+<h4 class="axis-unit-type-title">Sea Units</h4>
+<ul class="axis-unit-type">
+</li>
+<li class="axis-unit">
+<a name="Battleship"></a>
+<h4 class="axis-unit-title">Battleship</h4>
+<p class="cost">Cost: 20</p>
+<p class="attack">Attack: 4</p>
+<p class="defense">Defense: 4</p>
+<p class="move">Move: 2</p>
+<p class="hp">HP: 2</p>
+<p class ="comment">-Repairs at naval bases at end of turn</p>
+<p class ="comment">-Can bombard</p>
+</li>
+<li class="axis-unit">
+<a name="Aircraft_Carrier"></a>
+<h4 class="axis-unit-title">Aircraft Carrier</h4>
+<p class="cost">Cost: 16</p>
+<p class="attack">Attack: 0</p>
+<p class="defense">Defense: 2</p>
+<p class="move">Move: 2</p>
+<p class="hp">HP: 2</p>
+<p class ="comment">-Planes can not land or take off on damage carriers</p>
+<p class ="comment">-Planes auto-scramble on defense</p>
+<p class ="comment">-Planes must land on original carrier if possible</p>
+</li>
+<li class="axis-unit">
+<a name="Cruiser"></a>
+<h4 class="axis-unit-title">Cruiser</h4>
+<p class="cost">Cost: 12</p>
+<p class="attack">Attack: 3</p>
+<p class="defense">Defense: 3</p>
+<p class="move">Move: 2</p>
+<p class="hp">HP: 1</p>
+<p class ="comment">-Can bombard</p>
+</li>
+<li class="axis-unit">
+<a name="Destroyer"></a>
+<h4 class="axis-unit-title">Destroyer</h4>
+<p class="cost">Cost: 8</p>
+<p class="attack">Attack: 2</p>
+<p class="defense">Defense: 2</p>
+<p class="move">Move: 2</p>
+<p class="hp">HP: 1</p>
+<p class ="comment">-Can detect subs. Detect an subs advantages</p>
+</li>
+<li class="axis-unit">
+<a name="Submarine"></a>
+<h4 class="axis-unit-title">Submarine</h4>
+<p class="cost">Cost: 6</p>
+<p class="attack">Attack: 2</p>
+<p class="defense">Defense: 1</p>
+<p class="move">Move: 2</p>
+<p class="hp">HP: 1</p>
+<p class ="comment">-Can sneak attack even when defending</p>
+<p class ="comment">-Can submerge instead of sneak attack</p>
+<p class ="comment">-Subs on station (stationary) in convoy tiles roll twice</p>
+<p class ="comment">-Can treat hostile sea zones as friendly</p>
+<p class ="comment">-Doesn't block enemy movement</p>
+<p class ="comment">-Can't hit enemy air units</p>
+<p class ="comment">-Can't be hit by air units, unless a hostile destroyer is present</p>
+</li>
+<li class="axis-unit">
+<a name="Transport"></a>
+<h4 class="axis-unit-title">Transport</h4>
+<p class="cost">Cost: 7</p>
+<p class="attack">Attack: 0</p>
+<p class="defense">Defense: 0</p>
+<p class="move">Move: 2</p>
+<p class="hp">HP: 1</p>
+<p class ="comment">-Can not go alone into sea zones with enemy units, even subs</p>
+<p class ="comment">-Units can not move before loading and after unloading</p>
+<p class ="comment">-Can not load and move in the same turn</p>
+<p class ="comment">-Can not unload in two different territories on the same turn</p>
+<p class ="comment">-Can act as a bridge</p>
+<p class ="comment">-Loads one infantry + any other</p>
+</li>
+</ul>
+</div>
