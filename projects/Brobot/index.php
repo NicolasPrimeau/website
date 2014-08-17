@@ -28,40 +28,11 @@ and open the template in the editor.
     <body>
         <div class="wrapper">
         <a name="top"></a>
-        <div class="header">
-            <div class="site-title">
-                <h1 class="site-title-name">Nicolas Primeau</h1>
-            </div>
-        </div>
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/assets/header.php') ?>
         <div class="main-content">
             <div class="main-body">
-                <div class="nav-menu">
-                <ul class="local-nav">
-                    <li class="local-nav-item blog"><a href="/blog">Blog</a>
-                    </li>
-                    <li class="local-nav-item bio"><a href="/bio">Biography</a>
-                    </li>  
-                    <li class="local-nav-item projects"><a href="/projects">Projects</a>
-                        <ul class="local-nav-sub hidden">
-                            <li class="local-nav-sub-item hidden"><a href="/projects/Brobot">Brobot</a></li>
-                            <li class="local-nav-sub-item hidden"><a href="/projects/VHDL_library">VHDL Library</a></li>
-                            <li class="local-nav-sub-item hidden"><a href="/projects/AC97Processor">AC'97 Processor</a></li>
-                        </ul>
-                    </li>
-                    <li class="local-nav-item cv"><a href="/cv">C.V.</a>
-                    </li>
-                    <li class="local-nav-item stuff"><a href="/stuff">Other stuff</a>
-                         <ul class="local-nav-sub hidden">
-                            <li class="local-nav-sub-item hidden"><a href="/stuff/axis_and_allies">Axis & Allies</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                </div>
-                <div class="contact-info">
-                    <p class="contact hire"><a href="mailto:nicolas.primeau@gmail.com?Subject=Recruitment%20inquiry" target="_blank">Hire me!</a></p>             
-                    <p class="contact phone">Phone: 1-613-915-7187</p>
-                    <p class="contact email">Contact: <a href="mailto:nicolas.primeau@gmail.com?Subject=Concerning:%20website" target="_blank">nicolas.primeau@gmail.com</a></p>   
-                </div>
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/assets/nav-menu.php') ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/assets/contact.php') ?>
                 <div class="local-header"><h2>Brobot</h2></div>
                 <div class="page-specific projects-vhdl">
                     <ul class="projects-vhdl-list">
