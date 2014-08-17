@@ -28,6 +28,7 @@ body{
     font-family: "Calibri";
     letter-spacing: 0.2px;
     /* TO DO: image*/
+    overflow-y: scroll;
     width:100%;
     margin: 0;
     border: 0;
@@ -82,7 +83,7 @@ a{
 }
 
 .hasVerticalScroll .main-content {
-    padding-left: 16px;
+    padding-left: 0px;
 }
 
 .header{
