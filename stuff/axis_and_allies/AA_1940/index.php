@@ -1,4 +1,3 @@
-CTYPE html>
 <html>
     <head>
         <title>Nicolas Primeau's personal website</title>
