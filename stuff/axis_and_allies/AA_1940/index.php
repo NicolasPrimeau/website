@@ -30,7 +30,7 @@
             <div class="main-body">
 <?php include($_SERVER['DOCUMENT_ROOT'] . '/assets/nav-menu.php') ?>
 <?php include($_SERVER['DOCUMENT_ROOT'] . '/assets/contact.php') ?>
-                <div class="local-header"><h2>Axis & Allies Europe 1940</h2></div>
+                <div class="local-header"><h2>Axis & Allies 1940</h2></div>
                 <div class="page-specific axis-europe">
                     <ul class="axis-axis list-js">
                         <li class="axis-item">
