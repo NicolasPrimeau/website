@@ -38,10 +38,18 @@ and open the template in the editor.
                     <ul class="cv-list">
                         <li class="cv-item">
                         <p class="print-cv">
-                            <a href="/cv/Primeau-Nicolas-C.V.pdf" target="_blank">Print-friendly PDF format</a>
+                            <a href="/cv/Primeau-Nicolas-C.V.pdf" target="_blank">Print-friendly PDF</a>&nbsp;or&nbsp;
+                            <a href="/cv/Primeau-Nicolas-C.V-Light.pdf" target ="_blank">Light version PDF</a>
                         </p>
                         <div class="cv-section">
                         <h3 class ="cv-section-title">Education</h3>
+                        <h4 class="cv-sub-title">BASc in Computer Engineering</h4>
+                        <h4 class="cv-date"> September 2011 - April 2015 (Expected)</h4>
+                        <h5 class="cv-sub-sub-title">University of Ottawa</h5>
+                        <p class="cv-description">
+                            The Computer Engineering Bachelor of Engineering at the university of Ottawa focuses on hardware design and architectures and low-level software such as Assembly and C. The program is broad in scope, with emphasis on electronics, hardware and software design, communication and control.
+                        </p>
+
                         <h4 class="cv-sub-title">High School Diploma</h4>
                         <h4 class="cv-date"> September 2007 - June 2011</h4>
                         <h5 class="cv-sub-sub-title">École Secondaire Franco-cité</h5>
@@ -49,26 +57,25 @@ and open the template in the editor.
                             - Received awards for best average in calculus, mathematical functions and best average overall<br><br>
                             - Received a bursary from the University of Ottawa<br><br>
                             - Received a bursary from the Engineering Dean of the University of Ottawa for Excellence<br><br>
-                            - Received the Queen Elizabeth II Bursary
-                        </p>
-                        <h4 class="cv-sub-title">BASc in Computer Engineering</h4>
-                        <h4 class="cv-date"> September 2011 - Present</h4>
-                        <h5 class="cv-sub-sub-title">University of Ottawa</h5>
-                        <p class="cv-description">
-                            The Computer Engineering Bachelor of Engineering at the university of Ottawa focuses on hardware design and architectures and low-level software such as Assembly and C. The program is broad in scope, with emphasis on electronics, hardware and software design, communication and control.
-                        <br><br>- Dean's list
-                        <br><br>- Expected graduation date of Spring 2015 (I'm currently in third year)
                         </p>
                         </div>
  <div class="cv-section">
                         <h3 class ="cv-section-title">Work Experience</h3>
+                        <h4 class="cv-sub-title">Natural Resources Canada</h4>
+                        <h4 class="cv-date"> May 2014 - August 2014</h4>
+                        <h5 class="cv-sub-sub-title">GPS Data Analyst</h5>
+                        <p class="cv-description">
+                        - Desgined and implemented a system to automatically stream, process and validate GPS data<br><br>
+                        - Created web apps to visualize and graph GPS data<br><br>
+                        - Automated many tasks and processes
+                        </p>
                         <h4 class="cv-sub-title">Computing and communications services (uOttawa)</h4>
                         <h4 class="cv-date"> May 2013 - February 2014</h4>
                         <h5 class="cv-sub-sub-title">Web development assistant</h5>
                         <p class="cv-description">
                         - Worked on the WebCMS (Drupal 7) project, which involved back-end work (PHP, Nginx, Varnish and server configuration), front-end design (CSS, HTML, Javascript) as well as other tasks.<br><br>
                         - Involved in the launching of the new uOttawa site and other faculty and services sites<br><br>
-                        - Sample of something I've worked on: http://www.uottawa.ca/
+                        - Sample of something I've worked on: <a href="http://www.uottawa.ca" target="_blank">http://www.uottawa.ca/</a>
                         </p>
                         <h4 class="cv-sub-title">Canadian Tire Corporation</h4>
                         <h4 class="cv-date">May 2012 - August 2012</h4>
@@ -78,21 +85,13 @@ and open the template in the editor.
                         - Identify and prioritize tasks needing to be done<br><br>
                         - Delegate tasks to others to assure meeting goals set by myself and the upper management<br>
                         </p>
-                        <h4 class="cv-sub-title">Canadian Tire Corporation</h4>
-                        <h4 class="cv-date"> October 2008 - August 2011</h4>
-                        <h5 class="cv-sub-sub-title">Sales Clerk</h5>
-                        <p class="cv-description">
-                        - Job responsibilities included customer service and maintaining the store<br><br>
-                        - Would often have to supervise other part-time workers<br><br>
-                        - Worked as a member of a team to assure the success of the store<br>
-                        </p>
                         </div>
                         <div class="cv-section">
                         <h3 class ="cv-section-title">Projects and competitions</h3>
                         <h4 class="cv-sub-title">uOttawa Coding Competition - Robocode</h4>
                         <h4 class="cv-date">February 2013</h4>
                         <p class="cv-description">
-                            - Our team OneTrueGod won the competition with our robot, Brobot
+                            - Our team OneTrueGod won the competition with our robot 'Brobot'
                         </p>
                         <h4 class="cv-sub-title">Personal Website</h4>
                         <p class="cv-description">
@@ -100,10 +99,11 @@ and open the template in the editor.
                             - Github repo: <a target="_blank" href="https://github.com/Nixon-/website">https://github.com/Nixon-/website</a>
 
                         </p>
-                        <h4 class="cv-sub-title">VHDL Library</h4>
+                        <h4 class="cv-sub-title">Many other ongoing projects</h4>
                         <p class ="cv-description">
-                            - An ongoing library of often used VHDL modules<br><br>
-                            - Github repo: <a href="https://github.com/Nixon-/VHDL_library" target="_blank">https://github.com/Nixon-/VHDL_library</a>
+                        - Explored the possibility of a Python hardware interpreter<br><br>
+                        - VHDL Library<br><br>
+                        - AC'97 sound transmitter
                         </p>
                         </div>
                         <div class = "cv-section">
@@ -111,15 +111,14 @@ and open the template in the editor.
 			<h4 class="cv-sub-title">Hardware-specific skills:</h4>
                         <p class ="cv-description">
                         - Hardware description languages: VHDL<br><br>
-                        - Low level understanding of computers<br><br>
+                        - Low level understanding of computers and architectures<br><br>
                         - Experience with micro-controllers and FPGAs (Altera, Xilinx)<br><br>
                         - Previously used Altera and Xilinx design tools
                         </p>
                         <h4 class="cv-sub-title">Computer languages known:</h4>
                         <p class="cv-description">
                         - Web specific languages: Javascript, CSS, HTML, PHP(Drupal 7)<br><br>
-                        - Other languages: C, Assembly, Java, Go<br><br>
-                        - Experience in writing Linux programs and scripts
+                        - Other languages: C, Assembly, Java, Python
                         </p>
                         <h4 class="cv-sub-title">Other computer skills:</h4>
                         <p class="cv-description">
