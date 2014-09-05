@@ -38,7 +38,7 @@ and open the template in the editor.
                     <ul class="cv-list">
                         <li class="cv-item">
                         <p class="print-cv">
-                            <a href="/cv/Primeau-Nicolas-C.V.pdf" target="_blank">Print-friendly PDF</a>&nbsp;or&nbsp;
+                            <a href="/cv/Primeau-Nicolas-C.V.pdf" target="_blank">Print-friendly PDF</a>&nbsp;or
                             <a href="/cv/Primeau-Nicolas-C.V-Light.pdf" target ="_blank">Light version PDF</a>
                         </p>
                         <div class="cv-section">
