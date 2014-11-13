@@ -65,9 +65,9 @@ and open the template in the editor.
                         <h4 class="cv-date"> May 2014 - August 2014</h4>
                         <h5 class="cv-sub-sub-title">GPS Data Analyst</h5>
                         <p class="cv-description">
-                        - Desgined and implemented a system to automatically stream, process and validate GPS data<br><br>
-                        - Created web apps to visualize and graph GPS data<br><br>
-                        - Automated many tasks and processes
+                        - Designed a system to automatically stream, process and validate new format of GNSS data<br><br>
+                        - Created intranet Web Apps to visualize and graph GNSS data for the international GNSS community<br><br>
+                        - Automated many tasks and processes to facilitate converting satellite data from stations throughout Canada and the world into refined data<br><br>
                         </p>
                         <h4 class="cv-sub-title">Computing and communications services (uOttawa)</h4>
                         <h4 class="cv-date"> May 2013 - February 2014</h4>
@@ -77,6 +77,13 @@ and open the template in the editor.
                         - Involved in the launching of the new uOttawa site and other faculty and services sites<br><br>
                         - Sample of something I've worked on: <a href="http://www.uottawa.ca" target="_blank">http://www.uottawa.ca/</a>
                         </p>
+                        <h4 class="cv-sub-title">Web Master</h4>
+                        <h4 class="cv-date">July 2014 - Ongoing</h4>
+                        <p class="cv-description">
+                        - Contract work for the Human Rights Research and Education Center of the University of Ottawa to build and maintain their website<br><br>
+                        - Link to the site <a target="_blank" href="http://cdp-hrc.uottawa.ca/">http://cdp-hrc.uottawa.ca/</a><br><br>
+                        </p>
+
                         <h4 class="cv-sub-title">Canadian Tire Corporation</h4>
                         <h4 class="cv-date">May 2012 - August 2012</h4>
                         <h5 class="cv-sub-sub-title">Sales Clerk</h5>
@@ -88,44 +95,47 @@ and open the template in the editor.
                         </div>
                         <div class="cv-section">
                         <h3 class ="cv-section-title">Projects and competitions</h3>
+                        <h4 class="cv-sub-title">Capstone Project</h4>
+                        <h4 class="cv-date">September 2014 - Ongoing</h4>
+                        <p class="cv-description">
+                        - Smart system capable of keeping track of food stocks, accessible by web<br><br>
+                        - Created with the help of sensors, Arduino, MongoDB, Python, Raspberry Pi, networking and many more technologies
+                        </p>
+
                         <h4 class="cv-sub-title">uOttawa Coding Competition - Robocode</h4>
                         <h4 class="cv-date">February 2013</h4>
                         <p class="cv-description">
-                            - Our team OneTrueGod won the competition with our robot 'Brobot'
+                        - Our team won the competition with our robot 'Brobot'<br><br>
+                        - The goal was to code the behavior of a simulated robot which would fight against other robots
                         </p>
-                        <h4 class="cv-sub-title">Personal Website</h4>
-                        <p class="cv-description">
-                            - Creation and hosting of my own site<br><br>
-                            - Github repo: <a target="_blank" href="https://github.com/Nixon-/website">https://github.com/Nixon-/website</a>
-
-                        </p>
-                        <h4 class="cv-sub-title">Many other ongoing projects</h4>
+                        <h4 class="cv-sub-title">Many other miscellaneous projects</h4>
                         <p class ="cv-description">
-                        - Explored the possibility of a Python hardware interpreter<br><br>
-                        - VHDL Library<br><br>
-                        - AC'97 sound transmitter
+                        - AC97 sound transmitter<br><br>
+                        - Personal Website<br><br>
+                        - Other unfinished projects
                         </p>
                         </div>
                         <div class = "cv-section">
                         <h3 class="cv-section-title">Computer-related skills</h3>
-			<h4 class="cv-sub-title">Hardware-specific skills:</h4>
+			<h4 class="cv-sub-title">Hardware specific skills:</h4>
                         <p class ="cv-description">
                         - Hardware description languages: VHDL<br><br>
-                        - Low level understanding of computers and architectures<br><br>
+                        - Low level understanding of many micro processor and memory architecture<br><br>
                         - Experience with micro-controllers and FPGAs (Altera, Xilinx)<br><br>
                         - Previously used Altera and Xilinx design tools
                         </p>
-                        <h4 class="cv-sub-title">Computer languages known:</h4>
+                        <h4 class="cv-sub-title">Software specific skills:</h4>
                         <p class="cv-description">
                         - Web specific languages: Javascript, CSS, HTML, PHP(Drupal 7)<br><br>
-                        - Other languages: C, Assembly, Java, Python
+                        - Other languages: Python, C/C++, Assembly, Java<br><br>
+                        - Database: MongoDB<br><br>
+                        - Frameworks: OpenCL
                         </p>
                         <h4 class="cv-sub-title">Other computer skills:</h4>
                         <p class="cv-description">
-                        - Worked with Nginx, Apache and Varnish<br><br>
-                        - Knowledge concerning networking protocols<br><br>
-                        - Experience with source control software (Git)<br><br>
-                        - Worked with Linux (CentOS, Debian), Windows, Chrome OS and Mac OS
+                        - Worked with Nginx, Apache, Varnish and Git<br><br>
+                        - Knowledge in networking protocols and experience managing networks<br><br>
+                        - Experienced user of Linux, Windows, Chrome OS and Mac OS
                         </p>
                         </div>
                         <div class="cv-section">
