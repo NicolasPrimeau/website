@@ -99,7 +99,8 @@ and open the template in the editor.
                         <h4 class="cv-date">September 2014 - Ongoing</h4>
                         <p class="cv-description">
                         - Smart system capable of keeping track of food stocks, accessible by web<br><br>
-                        - Created with the help of sensors, Arduino, MongoDB, Python, Raspberry Pi, networking and many more technologies
+                        - Created with the help of sensors, Arduino, MongoDB, Python, Raspberry Pi, networking and many more technologies<br><br>
+                        - Completed by a team of three members, of which I had the role of project manager and product engineer
                         </p>
 
                         <h4 class="cv-sub-title">uOttawa Coding Competition - Robocode</h4>
